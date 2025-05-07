@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ponte Estelar</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+      }
+
+      body {
+        background-color: #000;
+        color: #fff;
+      }
+
+      header {
+        z-index: 999;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        background: rgba(0, 0, 0, 0.8);
+        padding: 15px 20px;
+        transition: 0.5s ease;
+      }
+
+      header a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: 500;
+        transition: 0.3s;
+      }
+
+      header a:hover {
+        color: #09a6d4;
+      }
+
+      section {
+        padding: 120px 20px 60px;
+        max-width: 1000px;
+        margin: auto;
+      }
+
+      section img {
+        width: 100%;
+        max-height: 300px;
+        object-fit: cover;
+        margin-bottom: 20px;
+        border-radius: 10px;
+      }
+
+      section h1 {
+        font-size: 2rem;
+        margin: 20px 0 10px;
+        color: #09a6d4;
+      }
+
+      section p {
+        font-size: 1rem;
+        margin-bottom: 20px;
+        text-align: justify;
+        color: #ccc;
+      }
+
+      section a {
+        display: inline-block;
+        background: #09a6d4;
+        color: #fff;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        margin-bottom: 40px;
+        transition: 0.3s;
+      }
+
+      section a:hover {
+        background: #007ba3;
+      }
+
+      @media (max-width: 768px) {
+        header {
+          flex-wrap: wrap;
+          gap: 10px;
+          justify-content: center;
+        }
+
+        section {
+          padding: 100px 10px 40px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a href="#">Espaço</a>
+      <a href="#">Início</a>
+      <a href="#">Sobre</a>
+      <a href="#">Explorar</a>
+      <a href="#">Galeria</a>
+      <a href="#">Contato</a>
+    </header>
+
+    <section id="conteudo">
+      <img src="1.jpg" alt="Imagem 1" />
+      <h1>USSF-44.<br />Missão</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <a href="#">Leia Mais</a>
+
+      <img src="2.jpg" alt="Imagem 2" />
+      <h1>ATUALIZAÇÃO STARSHIP.<br />Foguete</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <a href="#">Leia Mais</a>
+
+      <img src="3.jpg" alt="Imagem 3" />
+      <h1>INTELSAT.<br />MISSÃO G-31</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <a href="#">Leia Mais</a>
+
+      <img src="4.jpg" alt="Imagem 4" />
+      <h1>ASTRONAUTAS DA NASA.<br />A LUA</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <a href="#">Leia Mais</a>
+
+      <img src="5.jpg" alt="Imagem 5" />
+      <h1>Viagem Espacial.<br />Foguete</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <a href="#">Leia Mais</a>
+    </section>
+  </body>
+</html>
